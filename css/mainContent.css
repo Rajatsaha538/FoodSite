@@ -9,19 +9,18 @@
     width: 25%;
 }
 
-.product-thumb {
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
+.card {
+    margin: 10px;
+    padding: 0px;
+}
+
+.card-header {
+    max-height: 50px;
     overflow: auto;
 }
-
-.image {
-    text-align: center;
-}
-
-.caption {
-    padding: 0 20px;
-    min-height: 100px;
+.card-img {
+    max-height: 200px;
+    width: auto;
 }
 
 .button-group {
