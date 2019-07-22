@@ -19,7 +19,7 @@ li a {
 .menu li a span {
     font-weight: bolder;
     color: rgb(255, 255, 255);
-    font-size: larger;
+    font-size: large;
 }
 
 .menu:hover li{
@@ -30,7 +30,7 @@ li a {
     transition: all .2s ease-in-out;
 }
 .menu li:hover {
-    transform: scale(3);
+    transform: scale(1.5);
     opacity: 1;
 }
 
@@ -68,4 +68,9 @@ body {
 
 .right-floaters {
     justify-items: stretch;
+}
+
+.navbar{
+    border-bottom:2px solid white;
+    padding-bottom:10px
 }
