@@ -62,8 +62,8 @@ li a {
     }
 }
 
-body {
-    background-image: url("../images/bg.jpg");
+header {
+    background-color: #111;
 }
 
 .right-floaters {
